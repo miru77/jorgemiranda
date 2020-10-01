@@ -1,4 +1,4 @@
-import node from "../images/projects/nodesend.png"
+import node from "../images/projects/blog.png"
 import raices from "../images/projects/BienesRaices.png"
 import pin from "../images/projects/bimagen.jpg"
 
@@ -19,10 +19,10 @@ export default [
     image: pin,
   },
   {
-    title: "NodeSend",
+    title: "Blob-Garsby",
     description:
-      " Aplicación para compartir archivos creando sus enlaces para compartirlos, se uso Next.js  y  Node y su api subida a heroku",
-    url: "https://nodesend-cliente-jade.vercel.app/",
+      "Blog con Gatsby, Strapi subido a heroku, usando Css con Sass y react boostrap, base de dato conecta mongodb con strapi",
+    url: "https://blogdevelper.netlify.app/",
     image: node,
   },
 ]
