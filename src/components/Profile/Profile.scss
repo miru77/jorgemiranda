@@ -59,6 +59,11 @@
                 color: #a2a2a2;
               }
             }
+
+            @media only screen and (max-width: 510px) {
+              display: inline;
+              text-align: center;
+            }
           }
         }
       }

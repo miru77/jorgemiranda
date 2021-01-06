@@ -38,7 +38,7 @@ export default function Profile() {
             <p>Jorge Rafael Miranda</p>
             <p>Frontend Developer</p>
             <hr />
-
+ 
             <div className="more-info">
               {data.map((item, index) => (
                 <div key={index} className="item">

@@ -21,7 +21,7 @@ export default function Proyects() {
                 <Card.Body>
                   <Card.Title>{proyect.title}</Card.Title>
                   <Card.Text>{proyect.description}</Card.Text>
-                  <a href={proyect.url} target="_blank">
+                  <a href={proyect.url} target="_blank"  rel="noopener noreferrer">
                     <Button variant="primary">Ver Proyecto</Button>
                   </a>
                 </Card.Body>

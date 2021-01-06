@@ -19,7 +19,7 @@ export default function Index() {
           <ListSkills skills={frontendSkills} colors={frontendSkillsColors} />
         </div>
         <div className="skills__block">
-          <h2>Frontend</h2>
+          <h2>Backend</h2>
           <ListSkills skills={backendSkills} colors={backendSkillsColors} />
         </div>
       </Container>
